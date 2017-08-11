@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageDfs.Infrastructure", "ImageDfs.EntityFramework\ImageDfs.Infrastructure.csproj", "{DBFD0CE8-A55F-4DE4-B56F-5DAF56492BE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageDfs.Domain", "ImageDfs.Domain\ImageDfs.Domain.csproj", "{55716C68-1B2C-48D1-B6BE-721FE8025F4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageDfs.WebApi", "ImageDfs.WebApi\ImageDfs.WebApi.csproj", "{DF3B3A3D-61D8-4C35-91D8-C6DB485406A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageDfs.Client", "ImageDfs.Client\ImageDfs.Client.csproj", "{23D0D39C-8483-4C40-BAAA-E6A4E3CD8A53}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBFD0CE8-A55F-4DE4-B56F-5DAF56492BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFD0CE8-A55F-4DE4-B56F-5DAF56492BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFD0CE8-A55F-4DE4-B56F-5DAF56492BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFD0CE8-A55F-4DE4-B56F-5DAF56492BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55716C68-1B2C-48D1-B6BE-721FE8025F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55716C68-1B2C-48D1-B6BE-721FE8025F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55716C68-1B2C-48D1-B6BE-721FE8025F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55716C68-1B2C-48D1-B6BE-721FE8025F4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF3B3A3D-61D8-4C35-91D8-C6DB485406A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3B3A3D-61D8-4C35-91D8-C6DB485406A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF3B3A3D-61D8-4C35-91D8-C6DB485406A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF3B3A3D-61D8-4C35-91D8-C6DB485406A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D0D39C-8483-4C40-BAAA-E6A4E3CD8A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D0D39C-8483-4C40-BAAA-E6A4E3CD8A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D0D39C-8483-4C40-BAAA-E6A4E3CD8A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D0D39C-8483-4C40-BAAA-E6A4E3CD8A53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
